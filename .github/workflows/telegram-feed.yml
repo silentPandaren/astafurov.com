@@ -1,0 +1,30 @@
+name: Update Telegram feed
+
+on:
+  schedule:
+    - cron: "17 6 * * *" # daily at 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch latest posts
+        run: python scripts/fetch_posts.py
+
+      - name: Commit if changed
+        run: |
+          if ! git diff --quiet posts.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add posts.json
+            git commit -m "Update Telegram feed"
+            git push
+          else
+            echo "Feed unchanged"
+          fi

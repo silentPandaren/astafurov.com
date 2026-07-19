@@ -95,6 +95,20 @@
   }
   .help-list li:first-child{border-top:1px solid var(--line)}
 
+  .feed{list-style:none;margin:0;padding:0}
+  .feed li{border-bottom:1px solid var(--line)}
+  .feed li:first-child{border-top:1px solid var(--line)}
+  .feed a{
+    display:flex;justify-content:space-between;align-items:baseline;gap:18px;
+    padding:12px 0;text-decoration:none;
+  }
+  .feed .t{font-size:16px}
+  .feed .d{font-size:13px;color:var(--faint);white-space:nowrap}
+  .feed a:hover .t{color:var(--muted)}
+  .feed-note{font-size:14px;color:var(--faint);margin:16px 0 0}
+  .feed-note a{color:var(--faint)}
+  .feed-note a:hover{color:var(--ink)}
+
   .role{margin-bottom:36px}
   .role:last-child{margin-bottom:0}
   .role h3{
@@ -150,6 +164,13 @@
       </ul>
     </section>
 
+    <!-- ===== WRITING ===== -->
+    <section id="writing" hidden>
+      <p class="label">Writing</p>
+      <ul class="feed" id="feed"></ul>
+      <p class="feed-note">Latest from <a href="https://t.me/mindventure" target="_blank" rel="noopener">Mindventure</a>, my Telegram channel on AI in product work (in Russian).</p>
+    </section>
+
     <!-- ===== EXPERIENCE ===== -->
     <section>
       <p class="label">Experience</p>
@@ -198,6 +219,27 @@
 
 <script>
   document.getElementById('yr').textContent = new Date().getFullYear();
+
+  // Telegram feed — posts.json is refreshed daily by a GitHub Action
+  fetch('posts.json')
+    .then(r => r.ok ? r.json() : Promise.reject())
+    .then(posts => {
+      if (!posts.length) return;
+      const feed = document.getElementById('feed');
+      for (const p of posts) {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = p.url; a.target = '_blank'; a.rel = 'noopener';
+        const t = document.createElement('span');
+        t.className = 't'; t.textContent = p.title;
+        const d = document.createElement('span');
+        d.className = 'd';
+        d.textContent = new Date(p.date).toLocaleDateString('en-US', {month:'short', day:'numeric'});
+        a.append(t, d); li.append(a); feed.append(li);
+      }
+      document.getElementById('writing').hidden = false;
+    })
+    .catch(() => {}); // feed unavailable — section stays hidden
 </script>
 </body>
 </html>
