@@ -1,5 +1,11 @@
 [
   {
+    "id": 90,
+    "url": "https://t.me/mindventure/90",
+    "date": "2026-07-21",
+    "title": "Вы умеете скучать?"
+  },
+  {
     "id": 85,
     "url": "https://t.me/mindventure/85",
     "date": "2026-06-21",
@@ -22,11 +28,5 @@
     "url": "https://t.me/mindventure/82",
     "date": "2026-05-28",
     "title": "Чуйка"
-  },
-  {
-    "id": 81,
-    "url": "https://t.me/mindventure/81",
-    "date": "2026-05-21",
-    "title": "Игры всегда чего-то от нас хотели"
   }
 ]
