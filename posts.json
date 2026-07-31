@@ -1,5 +1,11 @@
 [
   {
+    "id": 94,
+    "url": "https://t.me/mindventure/94",
+    "date": "2026-07-30",
+    "title": "ШВЖ, или продолжение с Product Fest"
+  },
+  {
     "id": 93,
     "url": "https://t.me/mindventure/93",
     "date": "2026-07-28",
@@ -22,11 +28,5 @@
     "url": "https://t.me/mindventure/90",
     "date": "2026-07-21",
     "title": "Вы умеете скучать?"
-  },
-  {
-    "id": 85,
-    "url": "https://t.me/mindventure/85",
-    "date": "2026-06-21",
-    "title": "AI Evals, или почему, когда кажется – креститься недостаточно"
   }
 ]
