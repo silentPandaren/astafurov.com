@@ -1,5 +1,11 @@
 [
   {
+    "id": 100,
+    "url": "https://t.me/mindventure/100",
+    "date": "2026-08-29",
+    "title": "Прототипирование вырастает в отдельную роль"
+  },
+  {
     "id": 97,
     "url": "https://t.me/mindventure/97",
     "date": "2026-08-13",
@@ -22,11 +28,5 @@
     "url": "https://t.me/mindventure/94",
     "date": "2026-07-30",
     "title": "ШВЖ, или продолжение с Product Fest"
-  },
-  {
-    "id": 93,
-    "url": "https://t.me/mindventure/93",
-    "date": "2026-07-28",
-    "title": "Вечное студенчество"
   }
 ]
