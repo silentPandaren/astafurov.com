@@ -1,5 +1,11 @@
 [
   {
+    "id": 101,
+    "url": "https://t.me/mindventure/101",
+    "date": "2026-08-30",
+    "title": "Кстати, нас уже больше 100!"
+  },
+  {
     "id": 100,
     "url": "https://t.me/mindventure/100",
     "date": "2026-08-29",
@@ -22,11 +28,5 @@
     "url": "https://t.me/mindventure/95",
     "date": "2026-08-04",
     "title": "Полгода с AI-инструментами: что изменилось конкретно в моей работе"
-  },
-  {
-    "id": 94,
-    "url": "https://t.me/mindventure/94",
-    "date": "2026-07-30",
-    "title": "ШВЖ, или продолжение с Product Fest"
   }
 ]
