@@ -1,5 +1,11 @@
 [
   {
+    "id": 102,
+    "url": "https://t.me/mindventure/102",
+    "date": "2026-09-02",
+    "title": "Профессии AI-бума, 2 часть: Forward Deployed Engineer"
+  },
+  {
     "id": 101,
     "url": "https://t.me/mindventure/101",
     "date": "2026-08-30",
@@ -22,11 +28,5 @@
     "url": "https://t.me/mindventure/96",
     "date": "2026-08-11",
     "title": "Прожарили меня, или неприятная правда про прототипирование"
-  },
-  {
-    "id": 95,
-    "url": "https://t.me/mindventure/95",
-    "date": "2026-08-04",
-    "title": "Полгода с AI-инструментами: что изменилось конкретно в моей работе"
   }
 ]
