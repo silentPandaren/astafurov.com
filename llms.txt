@@ -1,0 +1,28 @@
+# Anton Astafurov
+
+> Anton Astafurov (Антон Астафуров) is a product lead and product manager specializing in e-commerce, payments, and monetization, mostly in gaming. He is Product Lead at MY.GAMES Market, where he builds direct-to-consumer (D2C) web shops for PC and mobile games. Previously he worked at TikTok, Yandex Games, and VK.
+
+## Experience
+
+- **Product Lead, MY.GAMES Market (2024 — present).** Owns the end-to-end purchase funnel — catalog, checkout, payments, delivery — of direct-to-consumer web shops for PC and mobile games. Grew GMV ~80% YoY at high seven-figure monthly scale. Shipped the promo engine, regional pricing, and payment provider tooling that let non-technical teams run commerce without engineering.
+- **Product Distribution Lead, Yandex Games (2023 — 2024).** Led the distribution team of a 30M+ MAU gaming platform. Built the pipeline of distribution and content deals, driving double-digit YoY revenue growth, and turned partner feedback into platform roadmap changes: developer tools, monetization, analytics.
+- **Head of Product Growth & Partnerships, Gaming, TikTok (2020 — 2023).** Built the gaming content ecosystem across Eastern Europe: 350%+ YoY growth in gaming content consumption. Ran joint campaigns with HyperX, AMD, and Riot Games.
+- **Earlier (2017 — 2020):** gaming partnerships at VK, publishing at Igromania, and four years teaching digital product strategy at Netology.
+
+## Areas of expertise
+
+- E-commerce: purchase funnels, checkout, and conversion
+- Payments: payment provider strategy, costs, and regional pricing
+- Monetization: pricing, promos, and LiveOps tooling
+- Growth: distribution, partnerships, and content ecosystems
+- Mentoring product managers and marketers; talks and trainings for inDrive, Flo, Netology, and the UN Refugee Agency (UNHCR)
+- AI in product work: writes Mindventure, a Russian-language Telegram channel on how AI changes the everyday work of a product manager
+
+## Links
+
+- [Website (English)](https://astafurov.com/)
+- [Website (Russian)](https://astafurov.com/ru/)
+- [LinkedIn](https://www.linkedin.com/in/aastafurov/)
+- [Mindventure — Telegram channel](https://t.me/mindventure)
+- [Book a call](https://calendly.com/astafurov)
+- Email: astafurov.antonie@gmail.com
